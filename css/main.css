@@ -1,0 +1,91 @@
+/******FONT******/
+
+@font-face {
+    font-family: yekan;
+    src: url(../font/iranyekanwebbold.ttf);
+}
+
+/******FONT******/
+
+
+/*****BODY*****/
+
+*{
+    direction: rtl;
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #040810;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*****BODY*****/
+
+/*****NAV******/
+
+.my-nav{
+    padding: 30px 0px;
+}
+
+.my-nav-box-search{
+    width: 900px;
+    background-color: #040810;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    border-radius: 7px;
+    border: 1px solid #5c5f61;
+    margin-left: 25px;
+}
+
+.my-nav-icon-search{
+    color: #5c5f61;
+}
+
+.my-nav-input-search{
+    background: none;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    width: 100%;
+    color: white;
+}
+
+.my-nav-login{
+    border: 1px solid #5c5f61;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    color: #dce0e8;
+    margin-left: 13px;
+}
+
+.my-nav-buy{
+    padding: 12px;
+    color: #dce0e8;
+    border: 1px solid #5c5f61;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.my-nav-light{
+    padding: 10px;
+    color: #dce0e8;
+    display: flex;
+    align-items: center;
+}
+
+/*****NAV******/
