@@ -34,7 +34,11 @@ a:hover{
 /*****NAV******/
 
 .my-nav{
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .my-nav-box-search{
@@ -61,6 +65,8 @@ a:hover{
     color: white;
 }
 
+/* #4cd5dc;*/
+
 .my-nav-login{
     border: 1px solid #5c5f61;
     border-radius: 7px;
@@ -86,6 +92,48 @@ a:hover{
     color: #dce0e8;
     display: flex;
     align-items: center;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+
+.my-nav-light:hover{
+    background-color: #191c1e;
+}
+
+.my-nav-bottom{
+    margin-top: 20px;
+}
+
+.my-nav-list{
+    margin-left: 450px;
+}
+
+.my-nav-list-item{
+    color: #dce0e8;
+    font-size: 14px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.my-nav-list-item:hover{
+    border-bottom: 2px solid  #4cd5dc;
+    color: #dce0e8;
+}
+
+.my-nav-list-item-end{
+    color: #bb33ff;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.my-nav-list-item-end:hover{
+    border-bottom: 2px solid #bb33ff;
+    color: #bb33ff;
+}
+
+.my-nav-list-item-icon{
+    color: #5c5f61;
+    margin-left: 4px;
 }
 
 /*****NAV******/
