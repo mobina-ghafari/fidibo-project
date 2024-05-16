@@ -29,6 +29,7 @@ a:hover{
     cursor: pointer;
 }
 
+
 /*****BODY*****/
 
 /*****NAV******/
@@ -50,10 +51,12 @@ a:hover{
     border-radius: 7px;
     border: 1px solid #5c5f61;
     margin-left: 25px;
+    transition: all 0.5s;
 }
 
 .my-nav-icon-search{
     color: #5c5f61;
+    transition: all 0.5s;
 }
 
 .my-nav-input-search{
@@ -63,6 +66,7 @@ a:hover{
     margin-right: 15px;
     width: 100%;
     color: white;
+    transition: all 0.5s;
 }
 
 .my-nav-input-search-frequent{
@@ -74,6 +78,7 @@ a:hover{
     top: 90px;
     padding: 20px;
     display: none;
+    transition: all 0.5s;
 }
 
 
@@ -113,8 +118,21 @@ a:hover{
     margin-left: 13px;
 }
 
+.my-nav-buy-information{
+    position: absolute;
+    background-color: #212529;
+    border-radius: 7px;
+    border: 1px solid #5c5f61;
+    top: 85px;
+    left: 170px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    display: none;
+}
+
 .my-nav-light{
-    padding: 10px;
+    padding: 10px 12px;
     color: #dce0e8;
     display: flex;
     align-items: center;
@@ -163,3 +181,4 @@ a:hover{
 }
 
 /*****NAV******/
+
