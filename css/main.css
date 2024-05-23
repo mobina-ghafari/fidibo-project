@@ -79,6 +79,7 @@ a:hover{
     padding: 20px;
     display: none;
     transition: all 0.5s;
+    z-index: 1;
 }
 
 
@@ -129,6 +130,7 @@ a:hover{
     height: 400px;
     text-align: center;
     display: none;
+    z-index: 1;
 }
 
 .my-nav-light{
@@ -146,6 +148,7 @@ a:hover{
 
 .my-nav-bottom{
     margin-top: 20px;
+    
 }
 
 .my-nav-list{
@@ -177,8 +180,240 @@ a:hover{
 
 .my-nav-list-item-icon{
     color: #5c5f61;
-    margin-left: 4px;
+}
+
+.my-nav-end{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    
 }
 
 /*****NAV******/
+/****ANOTHER SIZE***/
+@media only screen and (max-width:1030px){
+    .my-nav-box-search{
+        width: 500px;
+    }
+
+    .my-nav-input-search-frequent{
+        width: 500px;
+    }
+
+    .my-nav-list{
+        margin-left: 200px;
+    }
+
+    .my-nav-list-item{
+        font-size: 12px;
+    }
+
+    .my-nav-list-item-end{
+        font-size: 12px;
+    }
+
+    
+    .my-nav-buy-information{
+        width: 200px;
+        height: 200px;
+        left: 120px;
+    }
+
+    .buy-img{
+        width: 50px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .my-nav-box-search{
+        width: 300px;
+    }
+
+    .login-text{
+        display: none;
+    }
+
+    .my-nav-input-search-frequent{
+        width: 200px;
+    }
+
+    .my-nav-list{
+        margin-left: 0px;
+    }
+
+    .my-nav-list-item{
+        font-size: 12px;
+    }
+
+    .my-nav-list-item-end{
+        font-size: 12px;
+    }
+
+    .my-nav-buy-information{
+        width: 200px;
+        height: 200px;
+        left: 120px;
+    }
+
+    .my-nav-download{display: none;}
+
+    .buy-img{
+        width: 50px;
+        margin-top: 0px;
+    }
+
+
+}
+
+@media only screen and (min-width:450px){
+    .my-nav-end{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:450px){
+    .my-nav-light{
+        display: none;
+    }
+
+    .my-nav-buy{
+        border: none;
+        padding: 0px;
+    }
+
+    .my-nav-buy-information{
+        width: 100px;
+        height: 100px;
+        left: 30px;
+        top: 70px;
+    }
+
+    .buy-text{
+        font-size: 10px;
+    }
+
+    .buy-img{
+        display: none;
+    }
+
+    .my-nav-login{
+        border: none;
+        padding: 0px;
+    }
+    
+    .my-nav-box-search{
+        width: 200px;
+        padding: 5px 10px;
+    }
+
+    .my-nav-input-search-frequent{
+        width: 200px;
+    }
+
+    .my-nav-input-search-item{
+        display: inline;
+        font-size: 10px;
+        padding: 5px;
+        border: none;
+    }
+
+    .brand-img{
+        width: 70px;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .carousel-control-prev{display: none;}
+
+    .carousel-control-next{display: none;}
+
+    .my-nav{
+        padding: 10px 0px;
+    }
+
+    .my-nav-bottom{
+        margin: 0px;
+    }
+
+    .my-nav-list{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+    .brand-img{
+        width: 50px;
+    }
+
+    .my-nav-box-search{
+        width: 100px;
+        padding: 4px 5px;
+    }
+
+    
+}
+/****ANOTHER SIZE***/
+/****MINI CARD******/
+
+.my-mini-card{
+    background-color: #212529;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.my-card-issue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-card-issue-line{
+    background-color: #444749;
+    width:980px;
+    height: 1px;
+}
+
+.my-card-issue-span{
+    color: #4cd5dc;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:1030px){
+    .my-card-issue-line{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .my-card-issue-line{
+        display: none;
+    }
+
+    .my-card-issue{
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .my-card-issue-h5{
+        font-size: 15px;
+    }
+
+    .my-card-issue-span{
+        font-size: 12px;
+    }
+}
+
+/****MINI CARD******/
 
