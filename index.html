@@ -10,11 +10,11 @@
 </head>
 <body>
     <!----------NAV----------->
-    <nav class="navbar navbar-expand-md my-nav bg-dark align-items-center justify-content-center">
-        <div class="d-flex">
+    <nav class="navbar navbar-expand-md my-nav bg-dark ">
+        <div class="d-flex align-items-center">
             <!---------BRAND---------->
             <a href="#" class="navbar-brand me-4">
-                <img src="./img/logo.svg" alt="" width="100" class="">
+                <img src="./img/logo.svg" alt="" width="100" class="brand-img">
             </a>
             <!---------BRAND---------->
             <!--------SEARCH-------->
@@ -49,10 +49,10 @@
             <!--------SEARCH-------->
             <!---------LOGIN---------->
             <a href="" class=" my-nav-login">
-                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-person me-2" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-person  " viewBox="0 0 16 16">
                     <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
                   </svg>
-                  ورود / ثبت نام
+                  <span class="login-text">ورود / ثبت نام</span>
             </a>
             <!---------LOGIN---------->
             <!--------BUY---------->
@@ -64,11 +64,11 @@
                       </svg>
                 </a>
                 <div class="my-nav-buy-information" id="information">
-                    <img src="./img/cartpng.parspng.com-3.png" width="150" class="mt-5" alt="">
+                    <img src="./img/cartpng.parspng.com-3.png" width="150" class="mt-5 buy-img" alt="">
                     <div class="d-flex flex-column mt-4">
-                    <span class="text-white">سبد خریدت خالی‌ست</span>
-                    <span class="text-white">یعنی: هزاران قصه و تجربۀ</span>
-                    <span class="text-white">نخوانده باقی‌ست</span>
+                    <span class="text-white buy-text">سبد خریدت خالی‌ست</span>
+                    <span class="text-white buy-text">یعنی: هزاران قصه و تجربۀ</span>
+                    <span class="text-white buy-text">نخوانده باقی‌ست</span>
                     </div>
                 </div>
             </div>
@@ -83,13 +83,13 @@
         </div>
         <div class="d-flex align-items-center my-nav-bottom">
             <div class="">
-                <ul class="navbar-nav my-nav-list">
+                <ul class="navbar-nav my-nav-list" id="top-list">
                     <li class="nav-item">
                         <a href="" class="nav-link my-nav-list-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-house " style="color: #dce0e8;"  viewBox="0 0 16 16">
                                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
                               </svg>
-                              خانه
+                              <span class="">خانه</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -99,7 +99,7 @@
                                 <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
                                 <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
                               </svg>
-                              کتاب الکترونیک
+                              <span class="">کتاب الکترونیک</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -107,7 +107,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-headphones my-nav-list-item-icon" viewBox="0 0 16 16">
                                 <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"/>
                               </svg>
-                              کتاب صوتی
+                              <span class="">کتاب صوتی</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -116,7 +116,7 @@
                                 <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/>
                                 <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/>
                               </svg>
-                              مجلات
+                              <span class="">مجلات</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -125,7 +125,7 @@
                                 <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"/>
                                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"/>
                               </svg>
-                              درس و دانشگاهی
+                              <span class="">درس و دانشگاهی</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -133,18 +133,18 @@
                             <svg xmlns="http://www.w3.org/2000/svg" style=" margin-left: 4px;" width="22" height="22" fill="currentColor" class="bi bi-star " viewBox="0 0 16 16">
                                 <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
                               </svg>
-                              فیدی پلاس
+                              <span class="">فیدی پلاس</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="">
+            <div class="my-nav-download">
                 <a href="" class="" style="font-size: 14px; color: #dce0e8; padding: 10px;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-phone" style="color: #4cd5dc;" viewBox="0 0 16 16">
                         <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
                         <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
                       </svg>
-                      دانلود اپلیکیشن
+                      <span class="">دانلود اپلیکیشن</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" style="color: #4cd5dc;" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
                       </svg>
@@ -153,6 +153,37 @@
         </div>
     </nav>
     <!----------NAV----------->
+    <!------NAV BOTTOM------>
+    <div class="my-nav-end bg-dark" id="bottom-list">
+        <div class=" d-flex justify-content-around align-items-center">
+            <a href="#" class="d-flex flex-column align-items-center px-4" style="border-bottom: 1px solid #4cd5dc;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-house-fill" style="color: #4cd5dc;" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                  </svg>
+                  <span class="mt-1" style="color: #4cd5dc; font-size: 10px;">خانه</span>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center px-4">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="22" height="22" fill="currentColor" class="bi bi-star " style="color: #dce0e8;" viewBox="0 0 16 16">
+                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+                  </svg>
+                  <span class="mt-1" style="color: #dce0e8; font-size: 10px;">فیدی پلاس</span>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center px-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-grid-fill" style="color: #dce0e8;" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"/>
+                  </svg>
+                  <span class="mt-1" style="color: #dce0e8; font-size: 10px;">دسته ها</span>
+            </a>
+            <a href="#" class="d-flex flex-column align-items-center px-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-book" style="color: #dce0e8;" viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                  </svg>
+                  <span class="mt-1" style="color: #dce0e8; font-size: 10px;">کتابخانه من</span>
+            </a>
+        </div>
+    </div>
+    <!------NAV BOTTOM------>
     <!--------HEADER------->
     <section class="mt-3">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -187,6 +218,69 @@
         </div>
     </section>
     <!--------HEADER------->
+    <!------MINI CARDS------->
+    <div class="container mt-4 d-flex justify-content-around" style="overflow: auto; overscroll-behavior-x: contain;">
+                    <a href="#" class="my-mini-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-journal-text " style="color: #4cd5dc;" viewBox="0 0 16 16">
+                            <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                            <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                            <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                          </svg>
+                          <span class="text-white ms-2" style="font-size: 13px;">کتاب متنی</span>
+                    </a>
+                    <a href="#" class="my-mini-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-headphones " style="color: #4cd5dc;" viewBox="0 0 16 16">
+                            <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5"/>
+                          </svg>
+                          <span class="text-white ms-2" style="font-size: 13px;">کتاب صوتی</span>
+                    </a>
+                    <a href="#" class="my-mini-card">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="28" height="28" fill="currentColor" class="bi bi-star " style="color: #bb33ff;" viewBox="0 0 16 16">
+                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+                          </svg>
+                          <span class="text-white ms-2" style="font-size: 13px;">فیدی پلاس</span>
+                    </a>
+                    <a href="#" class="my-mini-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-tag" style="color: #4cd5dc;" viewBox="0 0 16 16">
+                            <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
+                            <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
+                          </svg>
+                          <span class="text-white ms-2" style="font-size: 13px;">کتاب رایگان</span>
+                    </a>
+                    <a href="#" class="my-mini-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-newspaper " style="color: #4cd5dc;" viewBox="0 0 16 16">
+                            <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/>
+                            <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/>
+                          </svg>
+                          <span class="text-white ms-2" style="font-size: 13px;">مجله</span>
+                    </a>
+                   <a href="#" class="my-mini-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-mortarboard " style="color: #4cd5dc;" viewBox="0 0 16 16">
+                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"/>
+                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"/>
+                      </svg>
+                      <span class="text-white ms-2" style="font-size: 13px;">آموزشی</span>
+                   </a>
+                </div>
+    </div>
+    <!------MINI CARDS------->
+    <!-------CARDS-------->
+    <div class="container mt-5">
+        <div class="my-card-issue ">
+                    <span class=" h5 me-4 text-white my-card-issue-h5">ناشر روز: نشر آموخته</span>
+                    <div class="my-card-issue-line "></div>
+                    <a href="#" class="">
+                        <span class="ms-3 my-card-issue-span">مشاهده همه</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="color: #4cd5dc;" width="16" height="16" fill="currentColor" class="bi bi-chevron-left my-card-issue-icon" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                          </svg>
+                    </a>
+                </div>
+                <span class="mt-2" style="color: #a9abad; font-size: 14px;">با۴۰%تخفیف</span>
+        </div>
+    </div>
+    <!-------CARDS-------->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque enim ducimus unde facere iure nihil facilis, nostrum, nisi eum a consequuntur, quo nobis ex ipsa. Neque aspernatur nulla, corrupti iste quae expedita placeat culpa quam itaque, velit ut error provident voluptates aliquam, recusandae dolores iure minima numquam. Suscipit repellat totam cumque sapiente voluptates id distinctio ut sint necessitatibus eveniet quae tenetur quaerat eum corporis aut quod, reprehenderit facilis aliquid possimus natus eius! Fugiat unde illo dolore debitis? Minus eos cupiditate deleniti error earum qui rerum porro excepturi quas! Assumenda totam optio vel cupiditate? Perspiciatis ex nihil quaerat. Vero doloremque debitis nostrum iusto, quisquam corporis? Non itaque iste laborum iure. Numquam, accusamus velit, delectus eum explicabo debitis laborum architecto totam incidunt ipsam reprehenderit facilis animi repellendus autem, voluptas aliquam aliquid qui quisquam pariatur praesentium ratione necessitatibus provident minus! Culpa quod enim voluptatum nemo rem eaque, dolor id excepturi ipsam sequi animi fugiat quas velit necessitatibus cupiditate illo, distinctio beatae, sed dolores harum! Nostrum, possimus reprehenderit, nam aperiam repellendus delectus fugiat sed, ullam animi facere atque. Veniam delectus, voluptate dolore tempore laudantium aut ad. Quam tenetur ducimus totam aliquam dicta corrupti. Magnam modi id pariatur a aliquam animi voluptate vitae dolores et!</p>
     <!-----------SCRIPT------------>
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
