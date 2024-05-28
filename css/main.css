@@ -40,6 +40,7 @@ a:hover{
     flex-direction: column;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: #1c2028;
 }
 
 .my-nav-box-search{
@@ -431,14 +432,14 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #272b30;
+    background-color: #212529;
     height: 230px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
 
 .my-card-item-text{
-    background-color: #212529;
+    background-color: #1c2028;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -477,4 +478,26 @@ a:hover{
     
 }
 /*******CARDS******/
+
+/*****FOOTER*****/
+
+.my-footer-landscape{
+    background-color: #1c2028;
+}
+
+.my-footer-landscape-right-top{}
+
+.my-footer-landscape-right-top-item{
+    color: #a9abad;
+    font-size: 13px;
+}
+
+.instagram{
+    background: linear-gradient(80deg, #FFC700 0% , #e21e80 40% , #793FDF 100%);
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+/*****FOOTER*****/
 
