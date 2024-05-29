@@ -190,6 +190,8 @@ a:hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 10px;
+    z-index: 2;
+    background-color: #1c2028;
     
 }
 
@@ -229,7 +231,7 @@ a:hover{
     }
 }
 
-@media only screen and (max-width:770px){
+@media only screen and (max-width:1260px){
     .my-nav-box-search{
         width: 300px;
     }
@@ -270,7 +272,7 @@ a:hover{
 
 }
 
-@media only screen and (min-width:450px){
+@media only screen and (min-width:550px){
     .my-nav-end{
         display: none;
     }
@@ -278,7 +280,7 @@ a:hover{
 
 
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:550px){
     .my-nav-light{
         display: none;
     }
@@ -344,11 +346,31 @@ a:hover{
         margin: 0px;
     }
 
+
+
+}
+
+@media only screen and (max-width:1320px){
     .my-nav-list{
         display: none;
     }
 
+    .my-nav-download{
+        display: none;
+    }
 }
+
+@media only screen and (max-width:1295px){
+    .my-nav-light{
+        display: none;
+    }
+
+    .my-nav-end{
+        display: block;
+    }
+}
+
+
 
 @media only screen and (max-width:380px) {
     .brand-img{
@@ -377,7 +399,7 @@ a:hover{
 
 .my-card-issue{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -392,13 +414,13 @@ a:hover{
     font-size: 14px;
 }
 
-@media only screen and (max-width:1030px){
+@media only screen and (max-width:1400px){
     .my-card-issue-line{
-        width: 600px;
+        width: 700px;
     }
 }
 
-@media only screen and (max-width:770px){
+@media only screen and (max-width:1205px){
     .my-card-issue-line{
         display: none;
     }
@@ -485,7 +507,6 @@ a:hover{
     background-color: #1c2028;
 }
 
-.my-footer-landscape-right-top{}
 
 .my-footer-landscape-right-top-item{
     color: #a9abad;
@@ -497,6 +518,89 @@ a:hover{
     padding: 10px 20px;
     font-size: 13px;
     border-radius: 7px;
+}
+
+.my-footer-landscape-top-left{
+    background-color: #040810;
+    border-radius: 7px;
+    padding: 30px 20px;
+}
+
+.my-footer-landscape-top-left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5c5f5c;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+
+}
+
+.my-footer-landscape-top-left-nav-img{
+    width: 45px;
+    margin-left: 10px;
+}
+
+.my-footer-landscape-top-left-nav-arrow{
+    color: white;
+    border: 1px solid #5c5f61;
+    padding: 6px 7px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.my-footer-landscape-top-left-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24292e9b;
+    border: 1px solid #5c5f61;
+    border-radius: 7px;
+    padding: 6px 6px ;
+    width: 130px;
+}
+
+.my-footer-landscape-bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-footer-portrait{
+    display: none;
+}
+
+.my-footer-portrait-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c2028;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.my-footer-portrait-body{
+    background-color: #1c2028;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.my-footer-portrait-body-card{
+    border-bottom: 1px solid #5c5f61;
+    padding: 10px;
+}
+
+@media only screen and (max-width:1400px){
+    .my-footer-landscape{
+        display: none;
+    }
+
+    .my-footer-portrait{
+        display: block;
+    }
 }
 
 /*****FOOTER*****/
